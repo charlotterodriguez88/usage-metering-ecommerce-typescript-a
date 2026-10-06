@@ -1,0 +1,12 @@
+{
+  "name": "usage-metering-ecommerce-typescript-a",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/checkout_service.ts",
+    "test": "tsx src/usage_metering.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3" }
+}
